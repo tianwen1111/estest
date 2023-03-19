@@ -15,7 +15,6 @@ public abstract class AbstractInitializeBean  implements Runnable{
         }
     }
 
-
     public boolean isForceInit(){return isForceInit;}
 
     public void setForceInit(boolean isForceInit){this.isForceInit = isForceInit;}
